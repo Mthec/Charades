@@ -1,0 +1,59 @@
+body {
+    font-family:Arial,"Helvetica Neue",Helvetica,sans-serif;
+    background-color: #fff;
+}
+
+#top-row, #bottom-row {
+    width:75%;
+    margin:2.5% auto;
+    text-align:center;
+}
+
+h3 {
+    text-align:left;
+    padding:0 1em;
+}
+
+#word {
+    width:60%;
+    margin:2.5% auto;
+    border:1px solid #000;
+    border-radius:0.25em;
+    padding:1em;
+}
+
+#word p {
+    width:50%;
+    margin:1% auto;
+    font-size:large;
+    padding:1em;
+}
+
+#score, #timer {
+    width:30%;
+    margin:2.5% 5%;
+    display:inline-block;
+    border:1px solid #000;
+    border-radius:0.25em;
+    padding:0 0.5em 1em;
+}
+
+#score div, #timer div {
+    width:45%;
+    display:inline-block;
+    text-align:center;
+}
+
+.number {
+    font-size:x-large;
+}
+
+#content {
+    width:75%;
+    margin:auto;
+}
+
+#timerDuration {
+    width:90%;
+    margin:2.5% auto;
+}

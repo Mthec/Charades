@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Charades Helper</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="content">
+    <div id="top-row">
+        <div id="word">
+            <p>Test</p>
+            <button id="next">Next</button>
+            <button id="hide">Hide</button>
+        </div>
+    </div>
+    <div id="bottom-row">
+        <div id="score">
+            <h3>Score</h3>
+            <div>
+                <h4>Team 1</h4>
+                <p class="number">0</p>
+                <button class="scorePlus">+</button>
+                <button class="scoreMinus">-</button>
+            </div>
+            <div>
+                <h4>Team 2</h4>
+                <p class="number">0</p>
+                <button class="scorePlus">+</button>
+                <button class="scoreMinus">-</button>
+            </div>
+        </div>
+        <div id="timer">
+            <h3>Timer</h3>
+            <input type="range" min="30" max="120" step="10" title="timerDuration" id="timerDuration">
+            <div>
+                <p id="seconds" class="number">0</p>
+                <button id="start">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="charades.js"></script>
+</body>
+</html>
